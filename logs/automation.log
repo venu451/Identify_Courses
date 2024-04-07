@@ -1,0 +1,12 @@
+23:34:31.432 [main] INFO  testCases.TC4enterprises - ----- forEnterprises method runs succesful------
+23:35:40.978 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Searching for web development courses  --------
+23:35:45.348 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------shows the available web devolpment courses  --------
+23:35:45.357 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------clicking on the language(English) and Level(Beginner) checkboxes--------
+23:35:49.273 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------filtered courses is shown -------
+23:35:49.278 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Clicking on the first course--------
+23:35:53.563 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------First course details page shown--------
+23:35:53.565 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Collectiong the title,rating,duration of First Course--------
+23:35:58.687 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Clicking on the Second course--------
+23:35:58.912 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Second course details page shown--------
+23:35:58.914 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Collectiong the title,rating,duration of Second Course--------
+09:21:20.330 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Searching for web development courses  --------
