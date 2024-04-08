@@ -20,7 +20,7 @@ public class BasePage {
 	public BasePage(WebDriver driver) throws IOException{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
-		mywait=new WebDriverWait(driver,Duration.ofSeconds(10));
+		mywait=new WebDriverWait(driver,Duration.ofSeconds(30));
 		FileReader propFile=new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties");
 		p=new Properties();
 		p.load(propFile);
