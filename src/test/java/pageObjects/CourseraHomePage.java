@@ -29,8 +29,8 @@ public class CourseraHomePage extends BasePage{
 	// @CacheLookup This annotation, when applied over a WebElement, instructs Selenium to keep a 
 	//cache of the WebElement instead of searching for the WebElement every time from the WebPage. 
 	By searchBox2=By.xpath("//input[@placeholder='What do you want to learn?']");
-	@FindBy(xpath="//input[@placeholder='What do you want to learn?']") @CacheLookup 
-	private WebElement searchBox;
+//	@FindBy(xpath="//input[@placeholder='What do you want to learn?']") @CacheLookup 
+//	private WebElement searchBox;
 	//search button
 	@FindBy(xpath="//button[@class='nostyle search-button']//div[@class='magnifier-wrapper']") @CacheLookup
 	private WebElement submitSearch;
