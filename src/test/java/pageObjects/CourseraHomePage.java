@@ -28,6 +28,7 @@ public class CourseraHomePage extends BasePage{
 	//input[contains(@id,"cds-react-aria") and @type='checkbox']
 	// @CacheLookup This annotation, when applied over a WebElement, instructs Selenium to keep a 
 	//cache of the WebElement instead of searching for the WebElement every time from the WebPage. 
+	By searchBox2=By.xpath("//input[@placeholder='What do you want to learn?']");
 	@FindBy(xpath="//input[@placeholder='What do you want to learn?']") @CacheLookup 
 	private WebElement searchBox;
 	//search button
@@ -61,7 +62,8 @@ public class CourseraHomePage extends BasePage{
 	By allCourses=By.cssSelector("li.cds-9");
 	By dropDown=By.xpath("//button[@data-e2e=\"megamenu-explore-button\"]/span");
 	public void searchCourse() {
-		mywait.until(ExpectedConditions.visibilityOf(searchBox)).sendKeys(p.getProperty("searchCategory"));
+		
+		mywait.until(ExpectedConditions.visibilityOf(driver.findElement(searchBox2))).sendKeys(p.getProperty("searchCategory"));
 		submitSearch.click();
 	}
 	public void selectLanguage() {
