@@ -1,0 +1,40 @@
+23:34:31.432 [main] INFO  testCases.TC4enterprises - ----- forEnterprises method runs succesful------
+23:35:40.978 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Searching for web development courses  --------
+23:35:45.348 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------shows the available web devolpment courses  --------
+23:35:45.357 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------clicking on the language(English) and Level(Beginner) checkboxes--------
+23:35:49.273 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------filtered courses is shown -------
+23:35:49.278 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Clicking on the first course--------
+23:35:53.563 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------First course details page shown--------
+23:35:53.565 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Collectiong the title,rating,duration of First Course--------
+23:35:58.687 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Clicking on the Second course--------
+23:35:58.912 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Second course details page shown--------
+23:35:58.914 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Collectiong the title,rating,duration of Second Course--------
+09:21:20.330 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Searching for web development courses  --------
+11:23:24.925 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Searching for web development courses  --------
+11:24:08.018 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------shows the available web devolpment courses  --------
+11:24:08.332 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------clicking on the language(English) and Level(Beginner) checkboxes--------
+11:24:13.144 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------filtered courses is shown -------
+11:24:13.258 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Clicking on the first course--------
+11:24:17.484 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------First course details page shown--------
+11:24:17.780 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Collectiong the title,rating,duration of First Course--------
+11:25:01.281 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Data collected, prints on the console and written on excel file--------
+11:25:01.402 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Clicking on the Second course--------
+11:25:01.582 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Second course details page shown--------
+11:25:01.816 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Collectiong the title,rating,duration of Second Course--------
+11:25:44.073 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Data collected, prints on the console and written on excel file--------
+11:25:53.864 [main] INFO  testCases.TC3Languagelearn - ------Clcking on explore button and selecting Language learning option--------
+11:26:36.869 [main] INFO  testCases.TC3Languagelearn - ------ shows the language learn courses--------
+11:26:37.048 [main] INFO  testCases.TC3Languagelearn - ------For each Level it will count the number of courses available for different languages --------
+11:27:07.025 [main] INFO  testCases.TC3Languagelearn - ------data taken, prints on console and also written on excel file------
+11:29:55.236 [main] INFO  testCases.TC4enterprises - ----- forEnterprises method runs succesful------
+11:43:48.994 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Searching for web development courses  --------
+11:43:53.230 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------shows the available web devolpment courses  --------
+11:43:53.428 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------clicking on the language(English) and Level(Beginner) checkboxes--------
+11:43:56.862 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------filtered courses is shown -------
+11:43:57.001 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Clicking on the first course--------
+11:44:01.227 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------First course details page shown--------
+11:44:01.495 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Collectiong the title,rating,duration of First Course--------
+11:44:07.594 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Data collected, prints on the console and written on excel file--------
+11:44:07.720 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Clicking on the Second course--------
+11:44:07.901 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Second course details page shown--------
+11:44:08.133 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Collectiong the title,rating,duration of Second Course--------

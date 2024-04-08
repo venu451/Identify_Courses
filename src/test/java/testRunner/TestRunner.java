@@ -18,7 +18,7 @@ import io.cucumber.junit.CucumberOptions;
 		},
 		dryRun=false,
 		monochrome=true,
-		publish=false
+		publish=true
 				
 		)
 public class TestRunner {

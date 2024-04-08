@@ -1,12 +1,17 @@
-23:34:31.432 [main] INFO  testCases.TC4enterprises - ----- forEnterprises method runs succesful------
-23:35:40.978 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Searching for web development courses  --------
-23:35:45.348 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------shows the available web devolpment courses  --------
-23:35:45.357 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------clicking on the language(English) and Level(Beginner) checkboxes--------
-23:35:49.273 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------filtered courses is shown -------
-23:35:49.278 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Clicking on the first course--------
-23:35:53.563 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------First course details page shown--------
-23:35:53.565 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Collectiong the title,rating,duration of First Course--------
-23:35:58.687 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Clicking on the Second course--------
-23:35:58.912 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Second course details page shown--------
-23:35:58.914 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Collectiong the title,rating,duration of Second Course--------
-09:21:20.330 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Searching for web development courses  --------
+11:44:13.624 [main] INFO  testCases.Test_001_CourseraSearchWebDev - ------Data collected, prints on the console and written on excel file--------
+11:44:24.796 [main] INFO  testCases.TC3Languagelearn - ------Clcking on explore button and selecting Language learning option--------
+11:45:08.514 [main] INFO  testCases.TC3Languagelearn - ------ shows the language learn courses--------
+11:45:08.697 [main] INFO  testCases.TC3Languagelearn - ------For each Level it will count the number of courses available for different languages --------
+11:45:36.595 [main] INFO  testCases.TC3Languagelearn - ------data taken, prints on console and also written on excel file------
+11:47:54.955 [main] INFO  testCases.TC4enterprises - ----- forEnterprises method runs succesful------
+11:47:58.088 [main] INFO  testCases.TC4enterprises - ------error message is shown------
+11:50:54.187 [main] INFO  testCases.TC4enterprises - ----- forEnterprises method runs succesful------
+11:50:59.212 [main] INFO  testCases.TC4enterprises - ------error message is shown------
+11:56:14.349 [main] INFO  testCases.TC4enterprises - ----- forEnterprises method runs succesful------
+11:56:22.183 [main] INFO  testCases.TC4enterprises - ------error message is shown------
+12:00:19.757 [main] INFO  testCases.TC4enterprises - ----- forEnterprises method runs succesful------
+12:00:24.026 [main] INFO  testCases.TC4enterprises - ------error message is shown------
+12:03:39.645 [main] INFO  testCases.TC4enterprises - ----- forEnterprises method runs succesful------
+12:03:41.891 [main] INFO  testCases.TC4enterprises - ------error message is shown------
+12:06:54.819 [main] INFO  testCases.TC4enterprises - ----- forEnterprises method runs succesful------
+12:07:00.757 [main] INFO  testCases.TC4enterprises - ------error message is shown------

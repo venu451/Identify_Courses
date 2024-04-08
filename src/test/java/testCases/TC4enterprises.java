@@ -22,6 +22,7 @@ public class TC4enterprises extends ReusableComponents {
 		obj5 = new Enterprises(driver);
 		obj5.filltheform();
 		obj5.errormsg();
+		obj5.scrollMsg();
 		logger.info("------error message is shown------");
 	}
 

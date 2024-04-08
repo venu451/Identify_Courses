@@ -7,6 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 //import utilities.ExcelUtility;
@@ -62,7 +63,9 @@ public class Enterprises extends BasePage{
 	@FindBy(xpath="//button[@class='mktoButton']") 
 	WebElement submit;
 	
-	@FindBy(xpath="//div[@class='mktoError']")
+	@FindBy(xpath="//*[@data-testid='mktoTestFormId-1512']/div[50]/span/button") WebElement submitAnother;
+	
+	@FindBy(xpath="//div[@class='mktoError']/div[2]")
 	WebElement errormsg;
 	
 	@FindBy(xpath="//footer/div/div/div/div[5]/ul/li[10]/a")
@@ -114,14 +117,26 @@ public class Enterprises extends BasePage{
 	}
 
 	public void errormsg() {
-		js.executeScript("arguments[0].click();",submit); 
+		try {
+			js.executeScript("arguments[0].click();",submit); 
+		}catch(Exception e) {
+			 submitAnother.click();
+		}
+		
 		
 		//submit.click();
 //		js.executeScript(null, data)
-		 System.out.println("Error Message: "+errormsg.getText());
+		
 	}
 	public void scrollMsg() {
 		js.executeScript("arguments[0].scrollintoView", email);
+		try {
+			
+			System.out.println("Error Message: "+mywait.until(ExpectedConditions.visibilityOf(errormsg)).getText());
+		}catch(Exception e){
+			System.out.println("error message was not displayed");
+		}
+		
 	}
 		
 }
